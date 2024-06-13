@@ -1,0 +1,59 @@
+.calculator {
+    width: 200px;
+    margin: 0 auto;
+    padding-right: 340px;
+    padding-top: 40px;
+    border: 5px solid blanchedalmond;
+    border-spacing: 60px ;
+    
+    
+}
+
+#display {
+    width: 227%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-right: 80px;
+    border: 5px solid blanchedalmond;
+    color:white;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-right: 80px;
+}
+
+button {
+    width: 132.5px;
+    height: 100px;
+    margin: 1px;
+    font-size: 50px;
+    padding-right: 80px;
+}
+
+body {
+    background-image: url('cal3.jpg'); 
+    background-size: cover;
+    background-position: center; 
+}
+p {
+    width: 300px;
+    border: 1px;
+    padding: 5px;
+    margin: 10px;
+  }
+  h1{
+    color : white;
+    text-align: center;
+  }
+  img {
+    width: 550px;
+    height: 275px;
+    padding-left: 320px;
+    padding-bottom: 15px;
+    
+    
+    
+  }
