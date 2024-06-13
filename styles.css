@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;<style>
+  
+   background-size: cover;
+    
+    background-position: center;
+    
+    background-image: url('car6.jpg');
+    
+    background-attachment: fixed;
+	background-size: 1200px;
+	
+	
+ 
+  }
+
+
+p
+{
+	color: white;
+}
+h1
+{
+	color: white;
+}
+h2
+{
+	color: white;
+}
+h3
+{
+	color: white;
+}
+h4
+{
+	color: white;
+}
+
+body {
+  background-color: white;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  color="white";
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 10px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+.hero {
+    text-align: center;
+    padding: 4rem 0;
+    background-image: url('pg');
+    background-size: cover;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+	
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: #f44336;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+	text-align: center;
+}
+
+a
+{
+	text-align: center;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0rem 1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.10;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: red;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: red;
+  color: white;
+}
+.fa-whatsapp {
+  background: red;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
